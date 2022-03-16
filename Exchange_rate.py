@@ -13,6 +13,7 @@ headers = {
 
 
 def exchange_rate(from_currency: str,to_currency: str) ->float:
+    querystring = {"format":"json","from":from_currency,"to":to_currency,"amount":"1"}
     
 
     api_requests = requests.get(url, headers=headers, params = querystring)
