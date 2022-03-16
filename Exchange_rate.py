@@ -6,7 +6,7 @@ url = "https://currency-converter5.p.rapidapi.com/currency/list"
 
 headers = {
     'x-rapidapi-host': "currency-converter5.p.rapidapi.com",
-    'x-rapidapi-key': "a890f8ee02mshec43428d05dddd2p115fdejsnfe6850e68e18"
+    'x-rapidapi-key':
     }
 
 
